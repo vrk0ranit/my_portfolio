@@ -25,6 +25,5 @@ It showcases my projects, skills, and contact details — designed with a focus 
 | Vite | React Icons | CSS Gradients | GitHub Pages (optional) |
 
 ---
-
-## 🧩 Folder Structure
-
+##Live Link
+https://ranitbag-portfolio.vercel.app/
