@@ -99,7 +99,7 @@ const Hero = () => {
         >
           <span className="absolute inset-0 bg-gradient-to-r from-purple-600 to-cyan-500 transition-transform duration-500 group-hover:scale-105"></span>
           <span className="absolute inset-[2px] bg-gray-900 rounded-xl"></span>
-          <span className="relative z-10">Download Resume 📄</span>
+          <span className="relative z-10">Download My Resume 📄</span>
         </motion.a>
       </div>
     </section>
