@@ -11,7 +11,7 @@ const Hero = () => {
   const [index, setIndex] = useState(0);
   const [charIndex, setCharIndex] = useState(0);
 
-  // Simple typing text effect
+  // Typing effect logic
   useEffect(() => {
     const typingInterval = setInterval(() => {
       setDisplayText((prev) => prev + roles[index][charIndex]);
@@ -73,19 +73,35 @@ const Hero = () => {
         digital reality.
       </motion.p>
 
-      {/* CTA Button */}
-      <motion.a
-        href="#projects"
-        className="relative inline-block px-8 py-3 text-white font-semibold rounded-xl overflow-hidden group"
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-        transition={{ delay: 1, duration: 0.8 }}
-      >
-        {/* Gradient hover glow */}
-        <span className="absolute inset-0 bg-gradient-to-r from-cyan-500 to-purple-600 transition-transform duration-500 group-hover:scale-105"></span>
-        <span className="absolute inset-[2px] bg-gray-900 rounded-xl"></span>
-        <span className="relative z-10">View My Work</span>
-      </motion.a>
+      {/* CTA Buttons */}
+      <div className="flex flex-wrap justify-center gap-4 z-10">
+        {/* View Work Button */}
+        <motion.a
+          href="#projects"
+          className="relative inline-block px-8 py-3 text-white font-semibold rounded-xl overflow-hidden group"
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ delay: 1, duration: 0.8 }}
+        >
+          <span className="absolute inset-0 bg-gradient-to-r from-cyan-500 to-purple-600 transition-transform duration-500 group-hover:scale-105"></span>
+          <span className="absolute inset-[2px] bg-gray-900 rounded-xl"></span>
+          <span className="relative z-10">View My Work</span>
+        </motion.a>
+
+        {/* Download Resume Button */}
+        <motion.a
+          href="/Ranit_Bag_Resume.pdf"
+          download="Ranit_Bag_Resume.pdf"
+          className="relative inline-block px-8 py-3 text-white font-semibold rounded-xl overflow-hidden group"
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ delay: 1.2, duration: 0.8 }}
+        >
+          <span className="absolute inset-0 bg-gradient-to-r from-purple-600 to-cyan-500 transition-transform duration-500 group-hover:scale-105"></span>
+          <span className="absolute inset-[2px] bg-gray-900 rounded-xl"></span>
+          <span className="relative z-10">Download Resume 📄</span>
+        </motion.a>
+      </div>
     </section>
   );
 };
