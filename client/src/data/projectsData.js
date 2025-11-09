@@ -37,6 +37,15 @@ const projectsData = [
   },
   {
     id: 4,
+    title: "Decorease- A Ecommerce Platform",
+    desc: "A ecommerce platform to buy home made product with customization option.",
+    tech: ["React", "Node.js", "MongoDB", "Express.js"," Socket.io"],
+    image: social,
+    github: "https://github.com/vrk0ranit/College-Project",
+    live: "https://decorease-ranitbag.onrender.com/"
+  },
+  {
+    id: 5,
     title: "Text to sound converter",
     desc: "A simple web application that convert text to speech in different language.",
     tech: ["React"," javaScript","CSS"],
@@ -45,7 +54,7 @@ const projectsData = [
     live: "https://text-to-speech-converter-sepia-five.vercel.app/"
   },
   {
-    id: 5,
+    id: 6,
     title: "password manager ",
     desc: "A simple password generator web application.",
     tech: ["React", "javaScript"," CSS"],
@@ -54,7 +63,7 @@ const projectsData = [
     live: "https://password-maneger.vercel.app/"
   },
   {
-    id: 6,
+    id: 7,
     title: "currency converter",
     desc: "A smart currency converter.",
     tech: ["React", "javaScript"," CSS"],
@@ -63,7 +72,7 @@ const projectsData = [
     live: "https://currency-converter-d44z.vercel.app/"
   },
   {
-    id: 6,
+    id: 8,
     title: "To-do App",
     desc: "A smart todo list app using react.",
     tech: ["React", "javaScript"," CSS"],
