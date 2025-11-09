@@ -6,6 +6,7 @@ import social from "../assets/socialmedia.png"
 import texttospeech from "../assets/texttospeech.png"
 import password from "../assets/password manager.png"
 import currency from "../assets/currency converter.png"
+import decorease from "../assets/decorease.png"
 
 const projectsData = [
   {
@@ -40,7 +41,7 @@ const projectsData = [
     title: "Decorease- A Ecommerce Platform",
     desc: "A ecommerce platform to buy home made product with customization option.",
     tech: ["React", "Node.js", "MongoDB", "Express.js"," Socket.io"],
-    image: social,
+    image: decorease,
     github: "https://github.com/vrk0ranit/College-Project",
     live: "https://decorease-ranitbag.onrender.com/"
   },
